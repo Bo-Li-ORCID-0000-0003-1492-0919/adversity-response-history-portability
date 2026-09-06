@@ -1,0 +1,270 @@
+record_type,event_type,time_point,contrast,estimate,ci_lower,ci_upper,bootstrap_success,cohort,analysis_sample,outcome_scale,n_episodes,n_persons,n_observations,bootstrap_attempts,model,notes
+estimated_mean,widowhood,pre2,,-0.2183955692921852,-0.2701636106581347,-0.1632905336635958,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,widowhood,pre1,,-0.0172138573325998,-0.0775320974054932,0.0493519275190875,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,widowhood,event,,0.5019457005636697,0.4368303136114548,0.5753553968803122,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,widowhood,year2,,-0.2056108418288398,-0.268543438465243,-0.1366321181348442,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,widowhood,year4,,-0.2534692780924879,-0.330122507659134,-0.1751127041930498,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,widowhood,,pretrend_pre2_to_pre1,0.2011817119595854,0.1417905492580445,0.2576756861931791,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,widowhood,,acute_pre1_to_event,0.5191595578962696,0.4475217112829777,0.5909570237665371,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,widowhood,,early_recovery_event_to_year2,-0.7075565423925095,-0.7876080662816684,-0.6321489983050518,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,widowhood,,long_recovery_event_to_year4,-0.7554149786561577,-0.8432432074365775,-0.6629488669280328,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,widowhood,,persistence_pre1_to_year2,-0.1883969844962399,-0.2597052364759271,-0.1120099914516274,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,widowhood,,persistence_pre1_to_year4,-0.2362554207598881,-0.3278249504411336,-0.1535315265085213,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,unemployment,pre2,,-0.1469305291788803,-0.1908384853853845,-0.0976467508816494,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,unemployment,pre1,,-0.1291788657172432,-0.1723394358568711,-0.0825661399776076,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,unemployment,event,,0.1875239636099656,0.1414253526920594,0.2340263648837586,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,unemployment,year2,,-0.1758708749141611,-0.2311303845631813,-0.1217949124945092,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,unemployment,year4,,-0.1633584273256469,-0.2256007953522543,-0.1009546303353772,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,unemployment,,pretrend_pre2_to_pre1,0.017751663461637,-0.0205317603123536,0.0572296754859031,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,unemployment,,acute_pre1_to_event,0.3167028293272089,0.2768277533956729,0.3544035572912187,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,unemployment,,early_recovery_event_to_year2,-0.3633948385241268,-0.4182724513127466,-0.3134613243437267,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,unemployment,,long_recovery_event_to_year4,-0.3508823909356127,-0.4132756212373017,-0.2991620915326693,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,unemployment,,persistence_pre1_to_year2,-0.0466920091969179,-0.0992753224274714,0.0021709229856084,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,unemployment,,persistence_pre1_to_year4,-0.0341795616084037,-0.0877069789261613,0.0203794008297556,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,caregiving,pre2,,-0.2684149475056164,-0.3008822958555919,-0.2327250187121872,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,caregiving,pre1,,-0.2619671806932501,-0.294639447394063,-0.2284117692309573,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,caregiving,event,,-0.2089095287195013,-0.2418412710406519,-0.1749316845827226,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,caregiving,year2,,-0.232804506059797,-0.2668854826341953,-0.1975473504965327,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,caregiving,year4,,-0.2219820967302847,-0.2581801679387355,-0.1854170160095154,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,caregiving,,pretrend_pre2_to_pre1,0.0064477668123662,-0.0080416362265264,0.0195104265717331,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,caregiving,,acute_pre1_to_event,0.0530576519737487,0.0398433085072225,0.0661415672434811,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,caregiving,,early_recovery_event_to_year2,-0.0238949773402956,-0.0404118019487042,-0.0096020418497209,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,caregiving,,long_recovery_event_to_year4,-0.0130725680107833,-0.0361049779729753,0.0078285039005251,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,caregiving,,persistence_pre1_to_year2,0.029162674633453,0.0149675697126956,0.0456445240828306,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,caregiving,,persistence_pre1_to_year4,0.0399850839629654,0.0176269198096387,0.060900863147169,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,health,pre2,,-0.2624950174927394,-0.2938244437349185,-0.2260656473753287,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,health,pre1,,-0.2402605060404118,-0.2733286592840225,-0.2034266228964897,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,health,event,,-0.1140374918563272,-0.1445256671846956,-0.0770989094023655,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,health,year2,,-0.1579717231478239,-0.1924509826428788,-0.1221178140512595,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,health,year4,,-0.1453552042511898,-0.1771964440106443,-0.1071300101396968,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,health,,pretrend_pre2_to_pre1,0.0222345114523276,0.0054320571676372,0.0385880825792453,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,health,,acute_pre1_to_event,0.1262230141840845,0.1106953454569029,0.1425508395815372,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,health,,early_recovery_event_to_year2,-0.0439342312914965,-0.0634359895564833,-0.0275097511614219,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,health,,long_recovery_event_to_year4,-0.0313177123948625,-0.0542196465075144,-0.0102287816082652,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,health,,persistence_pre1_to_year2,0.0822887828925879,0.0655735374920449,0.0998825787432256,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+contrast,health,,persistence_pre1_to_year4,0.0949053017892219,0.0751361021799854,0.1169878517149684,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,Intercept,-0.0172138573325998,-0.0775320974054932,0.0493519275190875,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[pre2],-0.2011817119595854,-0.2576756861931791,-0.1417905492580446,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[event],0.5191595578962696,0.4475217112829777,0.5909570237665371,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year2],-0.1883969844962399,-0.2597052364759271,-0.1120099914516274,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year4],-0.2362554207598881,-0.3278249504411336,-0.1535315265085213,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,event[unemployment],-0.1119650083846434,-0.1690896888922821,-0.0512787385268434,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,event[caregiving],-0.2447533233606503,-0.3009438942095696,-0.1904126475602995,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,event[health],-0.2230466487078119,-0.2759876093945318,-0.1690750310581017,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[pre2]:event[unemployment],0.1834300484979483,0.1101408659393833,0.2463431993959588,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[pre2]:event[caregiving],0.1947339451472191,0.1366601582568079,0.2530111171960736,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[pre2]:event[health],0.1789472005072577,0.1188015506073997,0.2395082411330981,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[event]:event[unemployment],-0.2024567285690606,-0.2803999693363112,-0.1228790396811398,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[event]:event[caregiving],-0.4661019059225207,-0.5380868520829746,-0.3919706647600738,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[event]:event[health],-0.392936543712185,-0.4708140443020186,-0.3150828319201936,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year2]:event[unemployment],0.141704975299322,0.0534268079416974,0.2246739617004905,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year2]:event[caregiving],0.217559659129693,0.1386850610203763,0.2934132761823161,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year2]:event[health],0.2706857673888279,0.1920103196176227,0.3460949097886516,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year4]:event[unemployment],0.2020758591514843,0.0983986077893039,0.3055388338828884,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year4]:event[caregiving],0.2762405047228535,0.1915188067600186,0.3634778433752875,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,time[year4]:event[health],0.33116072254911,0.2426766905881755,0.4246446493818747,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,age_centered,-0.0054165040579395,-0.0062011850068919,-0.0046157655119019,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,calendar_centered,0.020315080123558,0.0182893938515332,0.0221229174929906,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,sex[female],0.2105258955240348,0.1925968006057051,0.2315049602433262,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,education[other_qualification],0.0397381646246698,0.0141476624445109,0.0649508689872754,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,education[no_qualification],0.0626484401876286,0.0326351961353926,0.0935094300294276,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,education[unknown],0.0593109674718428,0.0308703961109416,0.0861202034700783,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[family_care],0.0566496232252871,-0.0464978982012195,0.1624269511192997,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[long_term_sick],0.0378772051655999,-0.0188748066009559,0.0896698486370132,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[other],0.7610872748878803,0.6966879877520193,0.8244578607502102,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[retired],-0.0193086197150905,-0.0507438376607086,0.0096725513257867,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[self_employed],0.0432376691552301,0.0151104997813844,0.0678273055821818,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[student],0.1727468536087254,0.1299992166604411,0.2193897173143771,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[unemployed],0.2993693468471253,0.252582302216095,0.3409542248850408,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+fixed_effect,,,socio[unknown],0.2037508635346483,0.1150033967915798,0.2979457586521684,500.0,UKHLS,primary_isolated,cohort_pre1_SD,38438,24781,143058.0,500.0,E,
+estimated_mean,widowhood,pre2,,-0.5677791593236504,-0.6099596154654706,-0.5297863804018917,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,widowhood,pre1,,-0.4860080863535121,-0.5261632720510389,-0.4507483173512702,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,widowhood,event,,-0.1712073759442152,-0.2117433447859085,-0.1325826119084828,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,widowhood,year2,,-0.4395169738432965,-0.4818035029373331,-0.4005380089234667,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,widowhood,year4,,-0.5117438778233317,-0.5559197483252789,-0.4707209441789927,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,widowhood,,pretrend_pre2_to_pre1,0.0817710729701382,0.0567310789350113,0.1074442907763171,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,widowhood,,acute_pre1_to_event,0.3148007104092969,0.2881667223752648,0.341106673432286,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,widowhood,,early_recovery_event_to_year2,-0.2683095978990813,-0.2946644265305586,-0.2394264574395304,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,widowhood,,long_recovery_event_to_year4,-0.3405365018791165,-0.3742676983455903,-0.3117698655444591,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,widowhood,,persistence_pre1_to_year2,0.0464911125102155,0.0160470050142846,0.0775979965852401,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,widowhood,,persistence_pre1_to_year4,-0.0257357914698196,-0.0586768907441034,0.0057076432827044,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,unemployment,pre2,,-0.5697889324507792,-0.6162317226056098,-0.519547807280951,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,unemployment,pre1,,-0.521018061572458,-0.5681902239764616,-0.4782112068873412,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,unemployment,event,,-0.4183146042931114,-0.4612099774126441,-0.3737855072934581,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,unemployment,year2,,-0.5199510015389116,-0.5741056670512948,-0.4752308890938267,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,unemployment,year4,,-0.5627611126111662,-0.6153881062427909,-0.5116812127276251,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,unemployment,,pretrend_pre2_to_pre1,0.0487708708783211,0.0054968224804626,0.0900271748986868,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,unemployment,,acute_pre1_to_event,0.1027034572793466,0.0630910692628929,0.1411835776694097,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,unemployment,,early_recovery_event_to_year2,-0.1016363972458002,-0.1428374109129803,-0.0603299551883395,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,unemployment,,long_recovery_event_to_year4,-0.1444465083180548,-0.1921964216371967,-0.0909943589974204,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,unemployment,,persistence_pre1_to_year2,0.0010670600335464,-0.0409441702359623,0.0464060597014308,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,unemployment,,persistence_pre1_to_year4,-0.0417430510387081,-0.0913243451111978,0.0040140869424948,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,caregiving,pre2,,-0.573973711609781,-0.6155446180545063,-0.5329030321206979,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,caregiving,pre1,,-0.5775492394000746,-0.6198984384793588,-0.5414845416910199,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,caregiving,event,,-0.5177607985861341,-0.5576944717369657,-0.479600284981227,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,caregiving,year2,,-0.5576052623396697,-0.5973292183104341,-0.5166408828584503,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,caregiving,year4,,-0.6308185605839894,-0.6744591998941893,-0.5914217921111531,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,caregiving,,pretrend_pre2_to_pre1,-0.0035755277902936,-0.034108980830215,0.0272476477035362,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,caregiving,,acute_pre1_to_event,0.0597884408139405,0.0299286109174463,0.0874803237282081,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,caregiving,,early_recovery_event_to_year2,-0.0398444637535355,-0.0701570198939233,-0.0084609026501287,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,caregiving,,long_recovery_event_to_year4,-0.1130577619978552,-0.1473419158909087,-0.082935787327309,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,caregiving,,persistence_pre1_to_year2,0.0199439770604049,-0.0111020434097969,0.051487723027446,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,caregiving,,persistence_pre1_to_year4,-0.0532693211839147,-0.0874496153987879,-0.0238659462601622,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,health,pre2,,-0.4097078914399171,-0.454921542747265,-0.3683664663220674,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,health,pre1,,-0.4080104445758342,-0.4479409761103886,-0.369371655264741,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,health,event,,-0.1690891530620488,-0.2095860849431587,-0.1299235117987426,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,health,year2,,-0.1327253141721195,-0.1737099652736191,-0.0928285878722527,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+estimated_mean,health,year4,,-0.2283186875668699,-0.2792405600421671,-0.1858336414962308,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,health,,pretrend_pre2_to_pre1,0.0016974468640829,-0.0292275333498638,0.029576741309562,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,health,,acute_pre1_to_event,0.2389212915137853,0.2138391152802347,0.2668346052663612,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,health,,early_recovery_event_to_year2,0.0363638388899292,0.0060610343601997,0.0632591632270864,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,health,,long_recovery_event_to_year4,-0.059229534504821,-0.0934796491441625,-0.0265519745930262,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,health,,persistence_pre1_to_year2,0.2752851304037146,0.2429104597460558,0.3038822798144449,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+contrast,health,,persistence_pre1_to_year4,0.1796917570089642,0.1449546461401565,0.2145498551500849,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,Intercept,-0.4860080863535121,-0.5261632720510389,-0.4507483173512702,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[pre2],-0.0817710729701382,-0.1074442907763171,-0.0567310789350113,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[event],0.3148007104092969,0.2881667223752648,0.341106673432286,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year2],0.0464911125102155,0.0160470050142846,0.0775979965852401,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year4],-0.0257357914698196,-0.0586768907441034,0.0057076432827044,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,event[unemployment],-0.0350099752189459,-0.0794806118250752,0.0118009463632349,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,event[caregiving],-0.0915411530465625,-0.1317975956995852,-0.0537868384270986,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,event[health],0.0779976417776779,0.0468217807239298,0.109649563194326,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[pre2]:event[unemployment],0.033000202091817,-0.0185341789671944,0.0830963382321019,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[pre2]:event[caregiving],0.0853466007604319,0.0457024218302781,0.1273852999375665,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[pre2]:event[health],0.0800736261060553,0.0389135483452383,0.1205134896808782,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[event]:event[unemployment],-0.2120972531299502,-0.2594874425593488,-0.1595114218534609,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[event]:event[caregiving],-0.2550122695953564,-0.2926686672807248,-0.2146549466518819,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[event]:event[health],-0.0758794188955115,-0.1143173222066187,-0.0395804654565681,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year2]:event[unemployment],-0.0454240524766691,-0.0965632682997334,0.0109690936601027,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year2]:event[caregiving],-0.0265471354498106,-0.0693751861690333,0.0166148873223863,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year2]:event[health],0.228794017893499,0.1849242791754064,0.270090621549471,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year4]:event[unemployment],-0.0160072595688885,-0.0747712101604164,0.0439795000260823,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year4]:event[caregiving],-0.0275335297140951,-0.0742353181027093,0.0148810033603762,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,time[year4]:event[health],0.2054275484787839,0.1607580284465434,0.253423268884124,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,age_centered,-0.0098884625494636,-0.0112872562451283,-0.0084046054719282,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,calendar_centered,0.0048147485072661,0.0031987436405996,0.0064306152913415,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,sex[female],0.115640956725261,0.090987431680217,0.1406932651457259,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,education[other_qualification],0.2245038063949189,0.1943915910862604,0.2534847626544771,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,education[no_qualification],0.5102197775620569,0.4727531225436851,0.5463217123358869,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,education[unknown],0.101053599624068,-0.2875725879350952,0.6020699262301359,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,socio[disabled],0.4660279234816472,0.4063569268350744,0.5313316062698914,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,socio[not_labor_force],0.1574406124903373,0.1206429414701905,0.1990084896116361,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,socio[partly_retired],-0.023032517261541,-0.0590593661176648,0.0145754963422171,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,socio[retired],0.1751589997196501,0.1432464119224161,0.2041968031802862,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,socio[unemployed],0.2591872990678422,0.1864629058640257,0.329157526612941,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_effect,,,socio[unknown],0.1421246985045232,0.0402079981428415,0.2579960663636511,500.0,HRS,primary_isolated,cohort_pre1_SD,16938,13073,68511.0,531.0,E,
+fixed_sensitivity,compound_primary,,acute_pre1_to_event,0.25600617729713,,,,UKHLS,primary_compound_single_episode,,1498,1455,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,compound_primary,,persistence_pre1_to_year2,0.07261719267226,,,,UKHLS,primary_compound_single_episode,,994,972,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,compound_primary,,persistence_pre1_to_year4,0.017315299418018,,,,UKHLS,primary_compound_single_episode,,530,524,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,separation_divorce,,acute_pre1_to_event,0.1458672796817479,,,,UKHLS,UKHLS_secondary_separation_divorce,,1493,1436,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,separation_divorce,,persistence_pre1_to_year2,-0.1277694619898603,,,,UKHLS,UKHLS_secondary_separation_divorce,,855,835,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,separation_divorce,,persistence_pre1_to_year4,-0.3021746591725027,,,,UKHLS,UKHLS_secondary_separation_divorce,,549,540,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,financial_strain,,acute_pre1_to_event,0.3783915836226968,,,,UKHLS,UKHLS_secondary_financial_strain,,16256,12078,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,financial_strain,,persistence_pre1_to_year2,0.0996964202963155,,,,UKHLS,UKHLS_secondary_financial_strain,,8127,6608,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,financial_strain,,persistence_pre1_to_year4,0.0968473202185602,,,,UKHLS,UKHLS_secondary_financial_strain,,4973,4267,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,health_chronic_onset,,acute_pre1_to_event,0.0848135579102961,,,,HRS,HRS_health_incident_chronic,,9499,9499,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,health_chronic_onset,,persistence_pre1_to_year2,0.0709046788777611,,,,HRS,HRS_health_incident_chronic,,6600,6600,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,health_chronic_onset,,persistence_pre1_to_year4,0.0523045049910559,,,,HRS,HRS_health_incident_chronic,,5377,5377,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,health_self_rated_decline,,acute_pre1_to_event,0.2499553865835487,,,,HRS,HRS_health_self_rated_decline,,17307,12815,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,health_self_rated_decline,,persistence_pre1_to_year2,0.1462916518425698,,,,HRS,HRS_health_self_rated_decline,,10848,8537,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,health_self_rated_decline,,persistence_pre1_to_year4,0.1133026129447029,,,,HRS,HRS_health_self_rated_decline,,7969,6489,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,poverty_entry,,acute_pre1_to_event,0.042030831680981,,,,HRS,HRS_secondary_poverty_entry,,9191,7354,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,poverty_entry,,persistence_pre1_to_year2,-0.0165182000040505,,,,HRS,HRS_secondary_poverty_entry,,5805,4917,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,poverty_entry,,persistence_pre1_to_year4,-0.0376813932721575,,,,HRS,HRS_secondary_poverty_entry,,4298,3735,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,retirement_comparator,,acute_pre1_to_event,0.0291114457885371,,,,HRS,HRS_neutral_retirement_comparator,,13065,11122,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,retirement_comparator,,persistence_pre1_to_year2,0.0095408110525144,,,,HRS,HRS_neutral_retirement_comparator,,9329,8194,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,retirement_comparator,,persistence_pre1_to_year4,-0.0094864759664004,,,,HRS,HRS_neutral_retirement_comparator,,7593,6780,,,,Descriptive frozen sensitivity; no hypothesis test.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.0494994112634777,,,,UKHLS,no_subsequent_event_censoring,,13748,10502,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,0.0690722861054346,,,,UKHLS,no_subsequent_event_censoring,,10583,8382,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.0860861523278102,,,,UKHLS,no_subsequent_event_censoring,,11300,9602,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.1082400953865007,,,,UKHLS,no_subsequent_event_censoring,,8635,7564,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,-0.0271512091465963,,,,UKHLS,no_subsequent_event_censoring,,2275,2141,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.0140216369816204,,,,UKHLS,no_subsequent_event_censoring,,1674,1593,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,-0.1847393674974555,,,,UKHLS,no_subsequent_event_censoring,,684,684,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.2097948851327367,,,,UKHLS,no_subsequent_event_censoring,,498,498,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,caregiving,,acute_pre1_to_event,0.3004730273752012,,,,UKHLS,raw_outcome_scale,,19872,14793,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.155426863441061,,,,UKHLS,raw_outcome_scale,,10706,9080,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,0.2379559532002753,,,,UKHLS,raw_outcome_scale,,5812,5580,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,caregiving,,acute_pre1_to_event,0.0325580447611341,,,,UKHLS,complete_four_timepoints,,5220,5022,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.021536318289556,,,,UKHLS,complete_four_timepoints,,5220,5022,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,0.0391507952579369,,,,UKHLS,complete_four_timepoints,,5220,5022,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,health,,acute_pre1_to_event,0.7153449615140174,,,,UKHLS,raw_outcome_scale,,14161,11709,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.4465781409601634,,,,UKHLS,raw_outcome_scale,,9790,8450,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.5601392515230635,,,,UKHLS,raw_outcome_scale,,5745,5483,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,health,,acute_pre1_to_event,0.111830398215449,,,,UKHLS,complete_four_timepoints,,5383,5145,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.0784550404366958,,,,UKHLS,complete_four_timepoints,,5383,5145,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.1009784891537915,,,,UKHLS,complete_four_timepoints,,5383,5145,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,unemployment,,acute_pre1_to_event,1.7945245805122167,,,,UKHLS,raw_outcome_scale,,3397,3171,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,-0.3795826283135928,,,,UKHLS,raw_outcome_scale,,1773,1713,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.2277992277992278,,,,UKHLS,raw_outcome_scale,,1036,1027,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,unemployment,,acute_pre1_to_event,0.2734620150825856,,,,UKHLS,complete_four_timepoints,,919,913,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,-0.0167073000787815,,,,UKHLS,complete_four_timepoints,,919,913,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.0414801932990438,,,,UKHLS,complete_four_timepoints,,919,913,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,acute_pre1_to_event,2.941699604743083,,,,UKHLS,raw_outcome_scale,,1012,1008,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,-1.1840277777777777,,,,UKHLS,raw_outcome_scale,,576,576,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-1.362637362637363,,,,UKHLS,raw_outcome_scale,,364,364,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,widowhood,,acute_pre1_to_event,0.5613980615354435,,,,UKHLS,complete_four_timepoints,,348,348,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,-0.2591458079897124,,,,UKHLS,complete_four_timepoints,,348,348,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.2535673268001099,,,,UKHLS,complete_four_timepoints,,348,348,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,acute_pre1_to_event,0.50524778917068,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,1012,1008,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,unemployment,,acute_pre1_to_event,0.2259063589382861,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,3397,3171,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,caregiving,,acute_pre1_to_event,0.0333941815417354,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,19872,14793,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,health,,acute_pre1_to_event,0.1086774171468117,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,14161,11709,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,compound_primary,,acute_pre1_to_event,-0.2294769706427784,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,1498,1455,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,-0.2076909633346828,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,576,576,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,-0.0864372914301576,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,1773,1713,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.0259928733396061,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,10706,9080,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.0771282278430692,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,9790,8450,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,compound_primary,,persistence_pre1_to_year2,-0.0485044432537246,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,994,972,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.2477944359011232,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,364,364,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.0611961436652746,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,1036,1027,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,0.0361125401200742,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,5812,5580,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.0933543151410832,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,5745,5483,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,compound_primary,,persistence_pre1_to_year4,-0.106563268262861,,,,UKHLS,all_unique_primary_episodes_preceding_concurrent_adjusted,,530,524,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,0.0611726641298331,,,,HRS,no_subsequent_event_censoring,,4035,3881,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.009610459528594,,,,HRS,no_subsequent_event_censoring,,3294,3186,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,0.0210335807896274,,,,HRS,no_subsequent_event_censoring,,1745,1652,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,0.0086456340635756,,,,HRS,no_subsequent_event_censoring,,1592,1511,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.0295894127812473,,,,HRS,no_subsequent_event_censoring,,2884,2622,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,-0.0162558342297521,,,,HRS,no_subsequent_event_censoring,,2653,2419,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.2799998780942732,,,,HRS,no_subsequent_event_censoring,,4216,3892,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.1830363178687921,,,,HRS,no_subsequent_event_censoring,,3048,2834,,,,Uses the presaved uncensored follow-up value; primary analysis remains censored.
+fixed_sensitivity,widowhood,,acute_pre1_to_event,0.6861468051399402,,,,HRS,raw_outcome_scale,,5681,5405,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,0.1185594111461619,,,,HRS,raw_outcome_scale,,3804,3670,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.0325061167423977,,,,HRS,raw_outcome_scale,,2861,2807,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,widowhood,,acute_pre1_to_event,0.3023750834989053,,,,HRS,complete_four_timepoints,,2499,2462,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,0.0266207571993571,,,,HRS,complete_four_timepoints,,2499,2462,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.0137693571720813,,,,HRS,complete_four_timepoints,,2499,2462,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,unemployment,,acute_pre1_to_event,0.2238547968885047,,,,HRS,raw_outcome_scale,,2314,2173,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,-0.010625,,,,HRS,raw_outcome_scale,,1600,1518,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.0697151424287856,,,,HRS,raw_outcome_scale,,1334,1297,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,unemployment,,acute_pre1_to_event,0.0810591839176234,,,,HRS,complete_four_timepoints,,1132,1102,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,0.0024317755175287,,,,HRS,complete_four_timepoints,,1132,1102,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.0494461021897503,,,,HRS,complete_four_timepoints,,1132,1102,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,caregiving,,acute_pre1_to_event,0.1303162486368593,,,,HRS,raw_outcome_scale,,3668,3298,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.033724340175953,,,,HRS,raw_outcome_scale,,2728,2497,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,-0.1196772747646795,,,,HRS,raw_outcome_scale,,2231,2131,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,caregiving,,acute_pre1_to_event,0.0381936212321414,,,,HRS,complete_four_timepoints,,1946,1872,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.0207471522742496,,,,HRS,complete_four_timepoints,,1946,1872,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,-0.0594122996944422,,,,HRS,complete_four_timepoints,,1946,1872,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,health,,acute_pre1_to_event,0.5207582938388625,,,,HRS,raw_outcome_scale,,5275,4824,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.5827698472326571,,,,HRS,raw_outcome_scale,,3993,3706,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.3725128960943257,,,,HRS,raw_outcome_scale,,2714,2552,,,,UKHLS GHQ-12 raw units or HRS CES-D 8 raw units.
+fixed_sensitivity,health,,acute_pre1_to_event,0.2383972250886132,,,,HRS,complete_four_timepoints,,2396,2262,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.2290145230570132,,,,HRS,complete_four_timepoints,,2396,2262,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.1752075991615109,,,,HRS,complete_four_timepoints,,2396,2262,,,,"Requires pre1, event, 2-year, and 4-year; pre2 remains optional."
+fixed_sensitivity,widowhood,,acute_pre1_to_event,0.2845091764207967,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,5681,5405,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,unemployment,,acute_pre1_to_event,0.0637717226913731,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,2314,2173,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,caregiving,,acute_pre1_to_event,0.0319411913763975,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,3668,3298,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,health,,acute_pre1_to_event,0.1983665818958263,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,5275,4824,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,compound_primary,,acute_pre1_to_event,0.2534723998252317,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,605,600,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year2,0.0381311224611425,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,3804,3670,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year2,-0.028017815893498,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,1600,1518,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year2,0.0010912961501827,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,2728,2497,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,health,,persistence_pre1_to_year2,0.2455225561532305,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,3993,3706,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,compound_primary,,persistence_pre1_to_year2,0.1134395186045186,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,466,464,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,widowhood,,persistence_pre1_to_year4,-0.0271446952665619,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,2861,2807,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,unemployment,,persistence_pre1_to_year4,-0.0489202273120094,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,1334,1297,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,caregiving,,persistence_pre1_to_year4,-0.0650636824030407,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,2231,2131,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,health,,persistence_pre1_to_year4,0.1533202025863229,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,2714,2552,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.
+fixed_sensitivity,compound_primary,,persistence_pre1_to_year4,-0.0457006285207901,,,,HRS,all_unique_primary_episodes_preceding_concurrent_adjusted,,339,338,,,,One row per episode; adjusted to preceding count=0 and concurrent indicator=0.

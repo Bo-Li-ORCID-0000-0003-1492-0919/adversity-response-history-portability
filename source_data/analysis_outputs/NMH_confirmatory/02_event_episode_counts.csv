@@ -1,0 +1,33 @@
+cohort,record_type,category,event_type,n_episodes,n_persons,year2_censored,year4_censored,with_preceding_primary,public_release_note
+UKHLS,episode_status,isolated_primary,all,43249,27331,,,,
+UKHLS,episode_status,compound_primary,all,1700,1648,,,,
+UKHLS,episode_status,primary_with_any_secondary_concurrent,all,3077,2865,,,,
+UKHLS,episode_status,year2_censored_by_later_primary,all,8713,6604,,,,
+UKHLS,episode_status,year4_censored_by_later_primary,all,13265,8749,,,,
+UKHLS,prior_primary_count,0,all,27892,27892,,,,
+UKHLS,prior_primary_count,1,all,11244,11244,,,,
+UKHLS,prior_primary_count,2,all,4165,4165,,,,
+UKHLS,prior_primary_count,3,all,1287,1287,,,,
+UKHLS,prior_primary_count,4,all,304,304,,,,
+UKHLS,prior_primary_count,5,all,,,,,,Complementary suppression prevents recovery of the combined small-count tail.
+UKHLS,prior_primary_count,6,all,,,,,,Primary suppression because the count is below 11.
+UKHLS,prior_primary_count,7,all,,,,,,Primary suppression because the count is below 11.
+UKHLS,event_status,isolated_primary,widowhood,1190,1185,132.0,158.0,695.0,
+UKHLS,event_status,isolated_primary,unemployment,3863,3584,567.0,741.0,1169.0,
+UKHLS,event_status,isolated_primary,caregiving,22270,16325,3519.0,5466.0,8768.0,
+UKHLS,event_status,isolated_primary,health,15926,13053,1767.0,3348.0,5749.0,
+HRS,episode_status,isolated_primary,all,18976,14460,,,,
+HRS,episode_status,compound_primary,all,701,696,,,,
+HRS,episode_status,primary_with_any_secondary_concurrent,all,5846,5351,,,,
+HRS,episode_status,year2_censored_by_later_primary,all,3677,3310,,,,
+HRS,episode_status,year4_censored_by_later_primary,all,5877,4689,,,,
+HRS,prior_primary_count,0,all,14896,14896,,,,
+HRS,prior_primary_count,1,all,3866,3866,,,,
+HRS,prior_primary_count,2,all,770,770,,,,
+HRS,prior_primary_count,3,all,132,132,,,,
+HRS,prior_primary_count,4,all,,,,,,Complementary suppression prevents recovery of the adjacent small count.
+HRS,prior_primary_count,5,all,,,,,,Primary suppression because the count is below 11.
+HRS,event_status,isolated_primary,widowhood,6352,6019,240.0,447.0,1662.0,
+HRS,event_status,isolated_primary,unemployment,2405,2254,146.0,262.0,441.0,
+HRS,event_status,isolated_primary,caregiving,3847,3461,161.0,428.0,770.0,
+HRS,event_status,isolated_primary,health,6372,5841,237.0,351.0,1778.0,

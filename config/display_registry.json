@@ -1,0 +1,235 @@
+{
+  "figures": {
+    "Figure_2": {
+      "title": "Original cross-adversity information hierarchy",
+      "source": "source_data/main/Figure_2_source.csv",
+      "main": true,
+      "kind": "forest"
+    },
+    "Figure_1": {
+      "title": "Prospective design and evidence structure",
+      "source": "source_data/main/Figure_1_source.csv",
+      "main": true,
+      "kind": "design"
+    },
+    "Figure_3": {
+      "title": "Registered extension results",
+      "source": "source_data/main/Figure_3_source.csv",
+      "main": true,
+      "kind": "forest"
+    },
+    "Figure_4": {
+      "title": "Recency benchmark",
+      "source": "source_data/main/Figure_4_source.csv",
+      "main": true,
+      "kind": "forest"
+    },
+    "Extended_Data_Figure_1": {
+      "title": "Event-centred trajectories",
+      "source": "source_data/extended_data/Extended_Data_Figure_1_source.csv",
+      "main": false,
+      "kind": "trajectory"
+    },
+    "Extended_Data_Figure_2": {
+      "title": "Episode construction and availability",
+      "source": "source_data/extended_data/Extended_Data_Figure_2_source.csv",
+      "main": false,
+      "kind": "flow"
+    },
+    "Extended_Data_Figure_3": {
+      "title": "Corrected trajectory model predictive performance",
+      "source": "source_data/extended_data/Extended_Data_Figure_3_source.csv",
+      "main": false,
+      "kind": "forest"
+    },
+    "Extended_Data_Figure_4": {
+      "title": "Original cross-adversity robustness",
+      "source": "source_data/extended_data/Extended_Data_Figure_4_source.csv",
+      "main": false,
+      "kind": "forest"
+    },
+    "Extended_Data_Figure_5": {
+      "title": "Item completeness and reliability",
+      "source": "source_data/extended_data/Extended_Data_Figure_5_source.csv",
+      "main": false,
+      "kind": "measurement"
+    },
+    "Extended_Data_Figure_6": {
+      "title": "Registered recurrence across prespecified families",
+      "source": "source_data/extended_data/Extended_Data_Figure_6_source.csv",
+      "main": false,
+      "kind": "forest"
+    },
+    "Extended_Data_Figure_7": {
+      "title": "Representations of multiple acute-response histories and overlap sensitivity",
+      "source": "source_data/extended_data/Extended_Data_Figure_7_source.csv",
+      "main": false,
+      "kind": "forest"
+    },
+    "Extended_Data_Figure_8": {
+      "title": "Attrition weighting and complete-case sensitivities",
+      "source": "source_data/extended_data/Extended_Data_Figure_8_source.csv",
+      "main": false,
+      "kind": "points"
+    }
+  },
+  "tables": {
+    "Table_1": {
+      "title": "Cohorts and analysis samples",
+      "source": "source_data/tables/Table_1.xlsx"
+    },
+    "Table_2": {
+      "title": "Original cross-adversity information decomposition",
+      "source": "source_data/tables/Table_2.xlsx"
+    },
+    "Table_3": {
+      "title": "Registered extension and prespecified secondary results",
+      "source": "source_data/tables/Table_3.xlsx"
+    },
+    "Extended_Data_Table_1": {
+      "title": "Event definitions, harmonization and sample flow",
+      "source": "extended_data_tables/Extended_Data_Table_1.xlsx"
+    },
+    "Extended_Data_Table_2": {
+      "title": "Cross-adversity model and validation metrics",
+      "source": "extended_data_tables/Extended_Data_Table_2.xlsx"
+    },
+    "Supplementary_Table_1": {
+      "title": "Item mapping and reliability estimates",
+      "source": "supplementary_tables/Supplementary_Table_1.xlsx"
+    },
+    "Supplementary_Table_2": {
+      "title": "Registered predictive increments",
+      "source": "supplementary_tables/Supplementary_Table_2.xlsx"
+    },
+    "Supplementary_Table_3": {
+      "title": "Weighting and attrition diagnostics",
+      "source": "supplementary_tables/Supplementary_Table_3.xlsx"
+    },
+    "Supplementary_Table_4": {
+      "title": "Registration and analysis chronology",
+      "source": "supplementary_tables/Supplementary_Table_4.xlsx"
+    }
+  },
+  "panel_dictionary": [
+    {
+      "display": "Figure_2",
+      "source": "source_data/main/Figure_2_source.csv",
+      "panels": [
+        "acute",
+        "persistence"
+      ],
+      "rows": 12
+    },
+    {
+      "display": "Figure_1",
+      "source": "source_data/main/Figure_1_source.csv",
+      "panels": [
+        "Trajectory cohort",
+        "A Cross domain",
+        "B Recurrence",
+        "C Multiple histories"
+      ],
+      "rows": 10
+    },
+    {
+      "display": "Figure_3",
+      "source": "source_data/main/Figure_3_source.csv",
+      "panels": [
+        "A Caregiving acute",
+        "B Caregiving persistence",
+        "C Multiple acute histories"
+      ],
+      "rows": 24
+    },
+    {
+      "display": "Figure_4",
+      "source": "source_data/main/Figure_4_source.csv",
+      "panels": [
+        "C Multiple acute histories",
+        "A Caregiving acute",
+        "B Caregiving persistence"
+      ],
+      "rows": 36
+    },
+    {
+      "display": "Extended_Data_Figure_1",
+      "source": "source_data/extended_data/Extended_Data_Figure_1_source.csv",
+      "panels": [
+        "UKHLS",
+        "HRS"
+      ],
+      "rows": 40
+    },
+    {
+      "display": "Extended_Data_Figure_2",
+      "source": "source_data/extended_data/Extended_Data_Figure_2_source.csv",
+      "panels": [
+        "UKHLS",
+        "HRS"
+      ],
+      "rows": 28
+    },
+    {
+      "display": "Extended_Data_Figure_3",
+      "source": "source_data/extended_data/Extended_Data_Figure_3_source.csv",
+      "panels": [
+        "UKHLS",
+        "HRS"
+      ],
+      "rows": 4
+    },
+    {
+      "display": "Extended_Data_Figure_4",
+      "source": "source_data/extended_data/Extended_Data_Figure_4_source.csv",
+      "panels": [
+        "acute change",
+        "acute ancova_level",
+        "persistence change",
+        "persistence ancova_level"
+      ],
+      "rows": 56
+    },
+    {
+      "display": "Extended_Data_Figure_5",
+      "source": "source_data/extended_data/Extended_Data_Figure_5_source.csv",
+      "panels": [
+        "A Complete items",
+        "B Full scale reliability",
+        "C Change reliability"
+      ],
+      "rows": 52
+    },
+    {
+      "display": "Extended_Data_Figure_6",
+      "source": "source_data/extended_data/Extended_Data_Figure_6_source.csv",
+      "panels": [
+        "acute Without current state",
+        "acute After current state",
+        "persistence Without current state",
+        "persistence After current state"
+      ],
+      "rows": 56
+    },
+    {
+      "display": "Extended_Data_Figure_7",
+      "source": "source_data/extended_data/Extended_Data_Figure_7_source.csv",
+      "panels": [
+        "Without current state",
+        "After current state"
+      ],
+      "rows": 64
+    },
+    {
+      "display": "Extended_Data_Figure_8",
+      "source": "source_data/extended_data/Extended_Data_Figure_8_source.csv",
+      "panels": [
+        "UKHLS persistence_2y_z",
+        "UKHLS persistence_4y_z",
+        "HRS persistence_2y_z",
+        "HRS persistence_4y_z"
+      ],
+      "rows": 48
+    }
+  ]
+}

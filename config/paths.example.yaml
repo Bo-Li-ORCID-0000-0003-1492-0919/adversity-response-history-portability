@@ -1,0 +1,4 @@
+ukhls_data_root: /path/to/licensed/ukhls
+hrs_data_root: /path/to/licensed/hrs
+licensed_workspace_root: /path/to/authorized/workspace
+output_root: /path/to/output

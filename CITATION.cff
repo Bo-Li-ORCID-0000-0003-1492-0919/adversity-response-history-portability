@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the manuscript and this software."
+title: "Adversity-response history portability"
+type: software
+version: 1.0.2
+authors:
+  - family-names: Yu
+    given-names: Huiyun
+  - family-names: Li
+    given-names: Bo
+    email: bo-li@sjtu.edu.cn
+preferred-citation:
+  type: article
+  title: "Limited predictive portability of resilience inferred from adversity-response histories"
+  authors:
+    - family-names: Yu
+      given-names: Huiyun
+    - family-names: Li
+      given-names: Bo

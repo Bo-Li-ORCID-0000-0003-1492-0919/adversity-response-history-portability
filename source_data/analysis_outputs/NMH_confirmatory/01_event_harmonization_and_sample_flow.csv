@@ -1,0 +1,39 @@
+cohort,record_type,stage,event_type,event_role,n_events,n_persons,n_long_observations,notes,eligible_events,eligible_persons,pre2_complete,year2_complete,year4_complete,timing_min_months,timing_p25_months,timing_median_months,timing_p75_months,timing_max_months
+UKHLS,sample_flow,all_collapsed_candidate_episodes,all,primary,62605,34575.0,217061.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,any_primary_episode,all,primary,44949,27892.0,158979.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,isolated_primary_episode,all,primary,43249,27331.0,152833.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,valid_pre1_and_event_self_report,all,primary,38442,24784.0,143070.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,valid_age_and_binary_sex,all,primary,38438,24781.0,143058.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,has_pre2,all,primary,30384,20109.0,119881.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,has_uncensored_year2,all,primary,22845,17828.0,98831.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,has_uncensored_year4,all,primary,12957,12100.0,61044.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,sample_flow,complete_four_timepoints,all,primary,11870,11116.0,56997.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+UKHLS,event_family,all_then_eligible,widowhood,primary,1190,1185.0,,,1012.0,1008.0,828.0,576.0,364.0,,,,,
+UKHLS,event_family,all_then_eligible,unemployment,primary,3863,3584.0,,,3397.0,3171.0,2509.0,1773.0,1036.0,,,,,
+UKHLS,event_family,all_then_eligible,caregiving,primary,22270,16325.0,,,19872.0,14793.0,15477.0,10706.0,5812.0,,,,,
+UKHLS,event_family,all_then_eligible,health,primary,15926,13053.0,,,14161.0,11709.0,11570.0,9790.0,5745.0,,,,,
+UKHLS,timing_qa,pre2_to_pre1_months,all,primary,36408,,,,,,,,,8.016427104722792,11.53182751540041,12.02464065708419,12.517453798767969,17.609856262833677
+UKHLS,timing_qa,event_to_year2_months,all,primary,33758,,,,,,,,,18.168377823408623,23.359342915811087,23.98357289527721,24.6652977412731,29.930184804928132
+UKHLS,timing_qa,event_to_year4_months,all,primary,25666,,,,,,,,,42.053388090349074,46.94866529774127,47.86858316221766,48.78850102669404,53.97946611909651
+UKHLS,event_family,secondary_or_sensitivity,financial_strain,secondary_or_sensitivity,19254,14001.0,,,16256.0,,,,,,,,,
+UKHLS,event_family,secondary_or_sensitivity,separation_divorce,secondary_or_sensitivity,1677,1612.0,,,1493.0,,,,,,,,,
+HRS,sample_flow,all_collapsed_candidate_episodes,all,primary,61970,28201.0,232067.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,any_primary_episode,all,primary,19677,14896.0,74124.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,isolated_primary_episode,all,primary,18976,14460.0,71507.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,valid_pre1_and_event_self_report,all,primary,16938,13073.0,68511.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,valid_age_and_binary_sex,all,primary,16938,13073.0,68511.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,has_pre2,all,primary,13370,10530.0,56796.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,has_uncensored_year2,all,primary,12125,10178.0,53855.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,has_uncensored_year4,all,primary,9140,8211.0,42572.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,sample_flow,complete_four_timepoints,all,primary,7973,7248.0,38130.0,"Frozen, collapsed episode counts.",,,,,,,,,,
+HRS,event_family,all_then_eligible,widowhood,primary,6352,6019.0,,,5681.0,5405.0,4945.0,3804.0,2861.0,,,,,
+HRS,event_family,all_then_eligible,unemployment,primary,2405,2254.0,,,2314.0,2173.0,1591.0,1600.0,1334.0,,,,,
+HRS,event_family,all_then_eligible,caregiving,primary,3847,3461.0,,,3668.0,3298.0,2723.0,2728.0,2231.0,,,,,
+HRS,event_family,all_then_eligible,health,primary,6372,5841.0,,,5275.0,4824.0,4111.0,3993.0,2714.0,,,,,
+HRS,timing_qa,pre2_to_pre1_months,all,primary,16703,,,,,,,,,11.991786447638605,21.97946611909651,23.98357289527721,26.02053388090349,39.030800821355236
+HRS,timing_qa,event_to_year2_months,all,primary,13759,,,,,,,,,18.0041067761807,21.97946611909651,23.98357289527721,26.02053388090349,29.9958932238193
+HRS,timing_qa,event_to_year4_months,all,primary,11313,,,,,,,,,42.02053388090349,45.9958932238193,48.0,50.0041067761807,53.97946611909651
+HRS,event_family,secondary_or_sensitivity,health_chronic_onset,secondary_or_sensitivity,10614,10614.0,,,9499.0,,,,,,,,,
+HRS,event_family,secondary_or_sensitivity,health_self_rated_decline,secondary_or_sensitivity,20405,14888.0,,,17307.0,,,,,,,,,
+HRS,event_family,secondary_or_sensitivity,poverty_entry,secondary_or_sensitivity,10000,7937.0,,,9191.0,,,,,,,,,
+HRS,event_family,secondary_or_sensitivity,retirement_comparator,secondary_or_sensitivity,13292,11292.0,,,13065.0,,,,,,,,,

@@ -1,0 +1,14 @@
+name: adversity-response-history-portability
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.14
+  - poppler
+  - pip
+  - pip:
+      - numpy==2.3.5
+      - pandas==2.2.3
+      - reportlab==4.4.9
+      - openpyxl==3.1.5
+      - Pillow==12.3.0
+      - pypdf==6.10.0
