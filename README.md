@@ -1,5 +1,7 @@
 # Adversity-response history portability
 
+This is the **v1.0.3 submission reproducibility package**, based on v1.0.2. It includes final Extended Data display revisions, post-result numerical-reproduction documentation and prospective safety guards. Aggregate source values and the reported scientific results are unchanged. The v1.0.2 archive remains a separate historical version. See `CHANGELOG.md` and `docs/METHODS_AND_REPLAY.md`.
+
 This repository accompanies the manuscript **“Limited predictive portability of resilience inferred from adversity-response histories.”**
 
 The study asks whether a person’s response to an earlier adversity helps predict their response to a later adversity. It examines three settings: different adversity types, recurrent caregiving, and summaries of several prior events. It also compares response history with mental health measured immediately before the later event.
@@ -22,7 +24,7 @@ UKHLS and HRS participant-level data are not included. Researchers must obtain t
 
 The public workflow uses aggregate files only. It does not fit models or read UKHLS or HRS participant-level data.
 
-Use Python 3.12 and install the packages in `requirements.txt`. Poppler is also required so that `pdftoppm` is available. The manuscript figures use Arial. On systems where Arial is not available, the scripts use Liberation Sans as a fallback. Set `NMH_ARIAL_FONT_DIR` to a folder containing `Arial.ttf` and `Arial Bold.ttf` when exact manuscript typography is required.
+Use Python 3.12 and install the packages in `requirements.txt`. Poppler is also required so that `pdftoppm` is available. The four main figures use Arial; their fallback is Liberation Sans. The final eight Extended Data figures use the bundled Liberation Sans fonts by default, matching the approved display family. Set `NMH_ARIAL_FONT_DIR` only when intentionally overriding font discovery; this override also changes Extended Data typography. See `docs/LICENSE_SCOPE.md` for the bundled font license.
 
 ```bash
 python -m pip install -r requirements.txt

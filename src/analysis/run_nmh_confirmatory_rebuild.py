@@ -1024,7 +1024,7 @@ def bootstrap_fixed_effects(
     rng = np.random.default_rng(seed)
     betas = []
     attempts = 0
-    while len(betas) < success_target:
+    while len(betas) < success_target and attempts < success_target * 3:
         attempts += 1
         counts = rng.multinomial(n, np.full(n, 1 / n))
         aa = np.tensordot(counts, a, axes=(0, 0))
@@ -1035,8 +1035,8 @@ def bootstrap_fixed_effects(
             continue
         if np.isfinite(beta).all():
             betas.append(beta)
-        if attempts > success_target * 3:
-            raise RuntimeError("Could not obtain required successful person bootstraps")
+    if len(betas) < success_target:
+        raise RuntimeError("Could not obtain required successful person bootstraps")
     return np.vstack(betas), attempts
 
 
@@ -1069,7 +1069,10 @@ def metrics(y: np.ndarray, pred: np.ndarray, weights: np.ndarray | None = None, 
     yw = y * np.sqrt(weights)
     calibration = np.linalg.pinv(zw) @ yw
     if variance is None or not np.isfinite(variance) or variance <= 0:
-        variance = mse
+        raise ValueError(
+            "Predictive density requires finite positive training residual variance; "
+            "evaluation-set MSE must not replace training variance."
+        )
     lpd = float(np.sum(weights * (-0.5 * (np.log(2 * np.pi * variance) + err**2 / variance))) / wsum)
     return {
         "RMSE": math.sqrt(mse), "MAE": mae, "predictive_R2": r2,

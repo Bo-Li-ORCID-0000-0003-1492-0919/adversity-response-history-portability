@@ -1,5 +1,7 @@
 # Registration scope
 
-The OSF record at [zgeb3](https://osf.io/zgeb3/) contains the extension questions and their analysis plan. It was created before the extension coefficients were estimated.
+The author identifies `preregistration.pdf` as the v2 attachment registered at [zgeb3](https://osf.io/zgeb3/). Its SHA-256 is `8077d0105f3867533ed57ab4f1075f51712ff3cad3e23a8556c53c0d27f7b8c0`. It specifies the two extension questions and their analysis plan. Anonymous OSF access did not expose the immutable registration attachment inventory during the 7 September 2026 audit; this local hash match is not a substitute for independent remote certification.
 
 The original cross-adversity and item-level analyses were completed earlier. A separate implementation note was completed before model fitting but is not part of the OSF record. The manuscript states this distinction. It does not alter the registered samples, outcomes, model comparisons, validation methods or interpretation rules.
+
+The exact target-pre1 scaling reference, sample SD convention, ceiling/tie implementation and plug-in RSS/n density calculation are technical details in the separate note. The PDF describes the broader training-only standardization, temporal validation and Gaussian-density approach. Secondary recency comparisons are included in the PDF, but the later C0–C3 notation is not an explicit formula block in that document. The note was recorded locally at 04:27:22 UTC on 4 September 2026, sealed at 04:28:21 UTC; the saved fit-start record is 04:36:30 UTC. These are local execution records, not remotely certified timestamps or evidence of first human viewing.

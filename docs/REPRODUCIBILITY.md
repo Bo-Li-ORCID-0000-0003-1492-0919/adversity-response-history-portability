@@ -14,11 +14,13 @@ The figure scripts do not fit models, resample participants or read licensed dat
 
 Arial regular and bold reproduce the manuscript typography. If Arial is unavailable, the scripts use Liberation Sans as a fallback. Set `NMH_ARIAL_FONT_DIR` to a directory containing `Arial.ttf` and `Arial Bold.ttf` when exact typography is required. Poppler is required for `make figures-qa`. The QA script checks page dimensions, extracted text and displayed numbers. It also reports raster differences, which can vary with font and PDF-rendering libraries.
 
+The approved revised Extended Data PDFs specifically used Liberation Sans, whereas the main figures used Arial. The Extended Data script now uses the two unmodified Liberation Sans files in `assets/fonts/` by default, with their SIL Open Font License included. This prevents an automatic switch to system Arial from changing those approved displays. An explicit `NMH_ARIAL_FONT_DIR` remains an intentional override, not an exact reproduction of the bundled Extended Data reference. The four main figure font settings are unchanged.
+
 Optional review PNGs can be created with:
 
 ```bash
-python src/figures/reproduce_main_figures.py --render-review-pngs
-python src/figures/reproduce_extended_data_figures.py --render-review-pngs
+python src/figures/reproduce_main_figures.py --output-dir outputs/figure_reproduction/main --render-review-pngs
+python src/figures/reproduce_extended_data_figures.py --output-dir outputs/figure_reproduction/extended_data --render-review-pngs
 ```
 
 ## Full analysis with licensed data
@@ -53,4 +55,4 @@ The licensed data and participant-level intermediate files are not distributed. 
 
 The registered extension recorded Python 3.12.14, NumPy 2.3.5, pandas 2.2.3, PyArrow 25.0.1 and pypdf 6.10.0. The public display workflow also uses reportlab 4.4.9, openpyxl 3.1.5 and Pillow 12.3.0.
 
-Earlier analysis records listed Python 3.12.13, NumPy 2.5.2, pandas 2.2.3 and SciPy 1.18.1. These versions are listed in `requirements-analysis.txt`; they were not re-tested while preparing the public aggregate workflow.
+Earlier analysis records listed Python 3.12.13, NumPy 2.5.2, pandas 2.2.3 and SciPy 1.18.1. A post-result reproduction on 7 September 2026 used Python 3.12.14 with the same NumPy, pandas and SciPy versions. It reproduced the original primary trajectory, U/E and P validation, observation-weighting, B/ANCOVA, alternative-representation and split-half aggregate estimates and intervals without changing the samples or algorithms. See `docs/METHODS_AND_REPLAY.md` for the scope and limitations of that check. Participant-level reproduction records remain in the licensed local environment.

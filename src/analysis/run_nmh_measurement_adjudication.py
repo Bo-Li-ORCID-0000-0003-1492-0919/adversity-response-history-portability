@@ -580,7 +580,12 @@ def metric_values(y, pred, variance, weights=None) -> dict:
     zw = z * np.sqrt(weights)[:, None]
     yw = y * np.sqrt(weights)
     calibration = np.linalg.pinv(zw) @ yw
-    valid_var = np.where(np.isfinite(variance) & (variance > 0), variance, mse)
+    if not np.all(np.isfinite(variance) & (variance > 0)):
+        raise ValueError(
+            "Predictive density requires finite positive training residual variance; "
+            "evaluation-set MSE must not replace training variance."
+        )
+    valid_var = variance
     lpd = float(np.sum(weights * (-0.5 * (np.log(2 * np.pi * valid_var) + err**2 / valid_var))) / wsum)
     return {
         "RMSE": math.sqrt(mse), "MAE": mae, "predictive_R2": r2,
